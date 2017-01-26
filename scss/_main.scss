@@ -1,0 +1,172 @@
+body{
+	padding:0px;
+	margin:0px;
+	font-family:helvetica, arial, sans-serif;
+	font-size:13px;
+	background:#EEEEEE;
+}
+*{
+	box-sizing:border-box;
+}
+p{
+	margin-top:0px;
+	&:last-child{
+		margin-bottom:0px;
+	}
+}
+textarea{
+	width:100%;
+	border-radius:3px;
+	padding:12px;
+	border:1px solid #eeeeee;
+}
+.code-container{
+	background:#eeeeee;
+	padding:12px;
+}
+.header{
+	background:#333333;
+	color:#ffffff;
+	.internal{
+		padding:12px;
+	}
+}
+.internal{
+	max-width:1024px;
+	margin:0 auto;
+}
+.main{
+	margin-top:24px;
+}
+.main-internal{
+	background:#ffffff;
+}
+.content-tab{
+	padding:12px;
+	display:none;
+	&.is-active{
+		display:block;
+	}
+}
+.content-nav{
+	width:100%;
+	background:#eeeeee;
+
+	&:after{
+		clear:both;
+		content:'';
+		display:table;
+	}
+	&__item{
+		padding:12px;
+		float:left;
+		cursor:pointer;
+		background:#dddddd;
+		color:#111111;
+		text-decoration:none;
+		&.is-active{
+			background:#ffffff;
+			font-weight:bold;
+		}
+	}
+}
+
+.content-section{
+	width:100%;
+	margin-bottom:24px;
+	&:last-child{
+		margin-bottom:0px;
+	}
+	&:after{
+		clear:both;
+		content:'';
+		display:table;
+	}
+	&__title{
+		font-size:2em;
+	}
+	&__items{
+		width:100%;
+	}
+	&__add{
+		border:2px dashed #CCCCCC;
+		padding:12px;
+		text-align:center;
+		margin-top:6px;
+		border-radius:3px;
+		cursor:pointer;
+		&:hover{
+			background:lighten(#cccccc, 15%);
+		}
+	}
+}
+
+.road-map{
+	&__item{
+		display:flex;
+		align-items:center;
+		padding:12px; 
+		position:relative;
+		border-bottom:1px solid #EEEEEE;
+		transition:background 0.2s linear;
+		&:last-child{
+			border-bottom:0px;
+		}
+		&:hover{
+			background:#fafafa;
+			.road-map__options{
+				display:block;
+			}
+		}
+		&:after{
+			clear:both;
+			content:'';
+			display:table;
+		}
+	}
+	&__status{
+		width:20%;
+	}
+	&__text{
+		width:70%;
+		padding-left:24px;
+		padding-right:24px;
+	}
+	&__options{
+		width:10%;
+		text-align:right;
+	}
+}
+.option-btn{
+	padding:6px 8px;
+	background:#333333;
+	color:#ffffff;
+	border:1px solid darken(#333333, 10%);
+	border-radius:3px;
+	line-height:1;
+	cursor:pointer;
+	transition:all 0.1s linear;
+	border-radius:3px 0px 0px 3px;
+	&:hover{
+		background:#0788ca;
+		border-color:darken(#0788ca, 10%);
+	}
+	&--delete{
+		border-radius:0px 3px 3px 0px;
+		border-left-color:lighten(#333333, 10%);
+		&:hover{
+			border-color:darken(#D80000, 10%);
+			border-left-color:lighten(#D80000, 10%);
+			background:#D80000;
+		}
+	}
+}
+
+.tip{
+	padding:12px;
+	border:1px solid #0788CA;
+	color:#0788CA;
+	background:rgba(7, 136, 202, 0.1);
+	border-radius:3px;
+	margin-bottom:12px;
+}

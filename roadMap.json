@@ -1,0 +1,82 @@
+{
+	"sections": [
+		{
+			"id": "0",
+			"title": "Bug Fixes",
+			"items": [
+				{
+					"id": "0",
+					"status": "Pending",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque luctus placerat. Curabitur venenatis ipsum auctor orci porttitor malesuada. Phasellus mattis ultricies viverra" 
+				},
+				{
+					"id": "1",
+					"status": "In progress",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque luctus placerat."
+				},
+				{
+					"id": "2",
+					"status": "Pending",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque luctus placerat. Curabitur venenatis ipsum auctor orci porttitor malesuada. Phasellus mattis ultricies viverra" 
+				},
+				{
+					"id": "3",
+					"status": "In progress",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque luctus placerat."
+				}
+			]
+		},
+		{
+			"id": "1",
+			"title": "Updates",
+			"items": [
+				{
+					"id": "0",
+					"status": "Pending",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque luctus placerat. Curabitur venenatis ipsum auctor orci porttitor malesuada. Phasellus mattis ultricies viverra" 
+				},
+				{
+					"id": "1",
+					"status": "In progress",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque luctus placerat."
+				},
+				{
+					"id": "2",
+					"status": "Pending",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque luctus placerat. Curabitur venenatis ipsum auctor orci porttitor malesuada. Phasellus mattis ultricies viverra" 
+				},
+				{
+					"id": "3",
+					"status": "In progress",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque luctus placerat."
+				}
+			]
+		},
+		{
+			"id": "2",
+			"title": "Major Updates",
+			"items": [
+				{
+					"id": "0",
+					"status": "Pending",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque luctus placerat. Curabitur venenatis ipsum auctor orci porttitor malesuada. Phasellus mattis ultricies viverra" 
+				},
+				{
+					"id": "1",
+					"status": "In progress",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque luctus placerat."
+				},
+				{
+					"id": "2",
+					"status": "Pending",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque luctus placerat. Curabitur venenatis ipsum auctor orci porttitor malesuada. Phasellus mattis ultricies viverra" 
+				},
+				{
+					"id": "3",
+					"status": "In progress",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque luctus placerat."
+				}
+			]
+		}
+	]
+}
